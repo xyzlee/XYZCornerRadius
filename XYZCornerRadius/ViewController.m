@@ -26,6 +26,7 @@
     
     self.myTableView.dataSource = self;
     self.myTableView.rowHeight = 100;
+    NSLog(@".............");
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
