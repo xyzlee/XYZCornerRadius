@@ -14,6 +14,14 @@
 		884F3B4B1C892C910010CB92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884F3B4A1C892C910010CB92 /* Images.xcassets */; };
 		884F3B4E1C892C910010CB92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884F3B4C1C892C910010CB92 /* LaunchScreen.xib */; };
 		884F3B5A1C892C910010CB92 /* XYZCornerRadiusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884F3B591C892C910010CB92 /* XYZCornerRadiusTests.m */; };
+		884F3B651C892D880010CB92 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 884F3B641C892D880010CB92 /* MyTableViewCell.m */; };
+		8869FC9C1C8961BC0082D69F /* vip.png in Resources */ = {isa = PBXBuildFile; fileRef = 8869FC9B1C8961BC0082D69F /* vip.png */; };
+		8869FC9E1C8962370082D69F /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 8869FC9D1C8962370082D69F /* add.png */; };
+		8869FCA01C89629E0082D69F /* big.png in Resources */ = {isa = PBXBuildFile; fileRef = 8869FC9F1C89629E0082D69F /* big.png */; };
+		8869FCA31C89664D0082D69F /* UIView+XYZCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 8869FCA21C89664D0082D69F /* UIView+XYZCornerRadius.m */; };
+		8869FCA81C8979F00082D69F /* UIImage+ImageRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8869FCA71C8979F00082D69F /* UIImage+ImageRoundedCorner.m */; };
+		8869FCAC1C897A980082D69F /* UIImageView+XYZCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 8869FCAB1C897A980082D69F /* UIImageView+XYZCornerRadius.m */; };
+		8869FCAE1C897C010082D69F /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 8869FCAD1C897C010082D69F /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,18 @@
 		884F3B531C892C910010CB92 /* XYZCornerRadiusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYZCornerRadiusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		884F3B581C892C910010CB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		884F3B591C892C910010CB92 /* XYZCornerRadiusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZCornerRadiusTests.m; sourceTree = "<group>"; };
+		884F3B631C892D880010CB92 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		884F3B641C892D880010CB92 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		8869FC9B1C8961BC0082D69F /* vip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip.png; sourceTree = "<group>"; };
+		8869FC9D1C8962370082D69F /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		8869FC9F1C89629E0082D69F /* big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big.png; sourceTree = "<group>"; };
+		8869FCA11C89664D0082D69F /* UIView+XYZCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XYZCornerRadius.h"; sourceTree = "<group>"; };
+		8869FCA21C89664D0082D69F /* UIView+XYZCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XYZCornerRadius.m"; sourceTree = "<group>"; };
+		8869FCA71C8979F00082D69F /* UIImage+ImageRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageRoundedCorner.m"; sourceTree = "<group>"; };
+		8869FCA91C8979F80082D69F /* UIImage+ImageRoundedCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageRoundedCorner.h"; sourceTree = "<group>"; };
+		8869FCAA1C897A980082D69F /* UIImageView+XYZCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XYZCornerRadius.h"; sourceTree = "<group>"; };
+		8869FCAB1C897A980082D69F /* UIImageView+XYZCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XYZCornerRadius.m"; sourceTree = "<group>"; };
+		8869FCAD1C897C010082D69F /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +105,18 @@
 				884F3B421C892C910010CB92 /* AppDelegate.m */,
 				884F3B441C892C910010CB92 /* ViewController.h */,
 				884F3B451C892C910010CB92 /* ViewController.m */,
+				884F3B631C892D880010CB92 /* MyTableViewCell.h */,
+				884F3B641C892D880010CB92 /* MyTableViewCell.m */,
+				8869FCA11C89664D0082D69F /* UIView+XYZCornerRadius.h */,
+				8869FCA21C89664D0082D69F /* UIView+XYZCornerRadius.m */,
+				8869FCAA1C897A980082D69F /* UIImageView+XYZCornerRadius.h */,
+				8869FCAB1C897A980082D69F /* UIImageView+XYZCornerRadius.m */,
+				8869FCA91C8979F80082D69F /* UIImage+ImageRoundedCorner.h */,
+				8869FCA71C8979F00082D69F /* UIImage+ImageRoundedCorner.m */,
+				8869FC9F1C89629E0082D69F /* big.png */,
+				8869FCAD1C897C010082D69F /* test.png */,
+				8869FC9B1C8961BC0082D69F /* vip.png */,
+				8869FC9D1C8962370082D69F /* add.png */,
 				884F3B471C892C910010CB92 /* Main.storyboard */,
 				884F3B4A1C892C910010CB92 /* Images.xcassets */,
 				884F3B4C1C892C910010CB92 /* LaunchScreen.xib */,
@@ -199,8 +231,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8869FC9E1C8962370082D69F /* add.png in Resources */,
 				884F3B491C892C910010CB92 /* Main.storyboard in Resources */,
+				8869FCAE1C897C010082D69F /* test.png in Resources */,
+				8869FCA01C89629E0082D69F /* big.png in Resources */,
 				884F3B4E1C892C910010CB92 /* LaunchScreen.xib in Resources */,
+				8869FC9C1C8961BC0082D69F /* vip.png in Resources */,
 				884F3B4B1C892C910010CB92 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				884F3B461C892C910010CB92 /* ViewController.m in Sources */,
+				884F3B651C892D880010CB92 /* MyTableViewCell.m in Sources */,
 				884F3B431C892C910010CB92 /* AppDelegate.m in Sources */,
+				8869FCAC1C897A980082D69F /* UIImageView+XYZCornerRadius.m in Sources */,
+				8869FCA81C8979F00082D69F /* UIImage+ImageRoundedCorner.m in Sources */,
 				884F3B401C892C910010CB92 /* main.m in Sources */,
+				8869FCA31C89664D0082D69F /* UIView+XYZCornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XYZCornerRadius/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XYZCornerRadius/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +458,7 @@
 				884F3B5F1C892C910010CB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		884F3B601C892C910010CB92 /* Build configuration list for PBXNativeTarget "XYZCornerRadiusTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +467,7 @@
 				884F3B621C892C910010CB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

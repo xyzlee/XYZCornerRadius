@@ -5,10 +5,14 @@
 //  Created by iMac on 16/3/4.
 //  Copyright (c) 2016年 iMac. All rights reserved.
 //
+// 参考博客 http://www.cocoachina.com/ios/20160301/15486.html
 
 #import "ViewController.h"
+#import "MyTableViewCell.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *myTableView;
 
 @end
 
@@ -16,7 +20,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.myTableView = [[UITableView alloc] initWithFrame: [UIScreen mainScreen].bounds style:UITableViewStylePlain];
+    [self.view addSubview:self.myTableView];
+    
+    self.myTableView.dataSource = self;
+    self.myTableView.rowHeight = 100;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    return 2000;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *identifier = @"MyTableViewCell";
+    MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (cell == nil) {
+        cell = [[MyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+    }
+    NSLog(@".................");
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning {
